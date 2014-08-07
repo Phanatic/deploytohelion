@@ -1,0 +1,24 @@
+{
+  "name":        "deploytohelion",
+  "description": "Deploy your nodejs apps to HP Helion aPaaS",
+  "version":     "0.0.1",
+  "author":      "Hewlett Packard Development Co.",
+  "contributors": [
+    { "name": "Phani Raj",    "email": "phanatic@hp.com" }
+  ],
+  "repository": {
+    "type": "git",
+    "url" : "https://github.com/Phanatic/deploytohelion.git"
+  },
+  "dependencies": {
+    "github":  "0.2.x"
+  },
+  "devDependencies": {
+    "hock" : "0.2.x",
+    "mocha": "1.9.x",
+    "should": "1.2.x",
+    "mocha-lcov-reporter": "0.0.1",
+    "coveralls": "2.x.x"
+  },
+  "engines": { "node": "0.8.x || 0.10.x" }
+}
