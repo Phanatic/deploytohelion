@@ -11,7 +11,8 @@
     "url" : "https://github.com/Phanatic/deploytohelion.git"
   },
   "dependencies": {
-    "github":  "0.2.x"
+    "github":  "0.2.x",
+    "express": "4.x"
   },
   "devDependencies": {
     "hock" : "0.2.x",
