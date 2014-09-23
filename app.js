@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 app.get('/hello.txt', function(req, res){
-  res.send('Hello World');
+  res.send('Hello World from Stackato');
 });
 
 var server = app.listen(3000, function() {
